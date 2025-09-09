@@ -104,23 +104,64 @@ To copy the output from HDFS to your local machine:
     ```
 3. Commit and push to your repo so that we can able to see your output
 
+## Challenges Faces and Solution
+
+The main challenge I face was while trying to run the comands again to check docker was not allowing me to run as the name of the container was already running from my previous run. So I found out that we have to stop the container that are not in use to enable for the same containers to run.
 
 ## Sample Input: 
  ```bash
-   Hello world
-   Hello Hadoop
-   Hadoop is powerful
-   Hadoop is used for big data
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry
+  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+  when an unknown printer took a galley of type and scrambled it to make a type specimen book
+  It has survived not only five centuries, but also the leap into electronic typesetting
+  remaining essentially unchanged
    ```
 
 ## Expected output: 
  ```bash
-Hadoop 3
-Hello 2
-used 1
-for 1
-big 1
-data 1
-powerful 1
-world 1
+    the	4
+    typesetting	2
+    text	2
+    dummy	2
+    Ipsum	2
+    Lorem	2
+    and	2
+    has	2
+    type	2
+    scrambled	1
+    centuries,	1
+    unchanged	1
+    industry	1
+    five	1
+    unknown	1
+    been	1
+    book	1
+    input	1
+    simply	1
+    took	1
+    into	1
+    but	1
+    ever	1
+    since	1
+    industry's	1
+    own	1
+    printer	1
+    essentially	1
+    leap	1
+    printing	1
+    specimen	1
+    Create	1
+    1500s	1
+    make	1
+    survived	1
+    only	1
+    not	1
+    dataset	1
+    your	1
+    also	1
+    electronic	1
+    remaining	1
+    galley	1
+    when	1
+    standard	1
    ```
